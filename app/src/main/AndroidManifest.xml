@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gcashemmanapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_gcash"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_gcash"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GcashEmmanApp">
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BottomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QRActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAllGcashServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PayQRActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GInsureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BankTransferActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GLifeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GForestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PayBillsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GCreditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ARewards"
+            android:exported="false" />
+        <activity
+            android:name=".BuyLoadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GSaveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CashInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SendMoneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
